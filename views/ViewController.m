@@ -18,6 +18,7 @@
     [super viewDidLoad];
     swipeCounter=1;
     LRCounter=0;
+    
     UDCounter=0;
     myView1=[[UIView alloc]initWithFrame:self.view.frame];
     imageView1=[[UIImageView alloc]initWithFrame:myView1.frame];
