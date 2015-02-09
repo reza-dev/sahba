@@ -27,6 +27,7 @@
     [self.view addSubview:myView1];
     
     myView2=[[UIView alloc]initWithFrame:self.view.frame];
+    
     imageView2=[[UIImageView alloc]initWithFrame:myView2.frame];
     imageView2.image=[UIImage imageNamed:@"2.jpg"];
     [myView2 addSubview:imageView2];
